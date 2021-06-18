@@ -1,0 +1,31 @@
+<style>
+    h1, h2, h3{font-family: 'Righteous', cursive;}
+    p, ul {font-family: 'Roboto', sans-serif;}
+    .inicio {text-align: center;}
+
+    #img {
+      border-radius: 100%;
+    }
+
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #horizontal-list{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .items-horizontal{
+      float: left;
+      background-color: #161a1d;} 
+
+    .horizotal-button{
+      display: block;
+      padding: 30px;
+    }
+    
+  </style>
