@@ -16,28 +16,47 @@
       display: block;
       margin-left: auto;
       margin-right: auto;
-      width: [50%];
+      width: 50%;
+    }
+
+    #horizontal-list{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .items-horizontal{
+      float: left;
+      background-color: #161a1d;} 
+
+    .horizotal-button{
+      display: block;
+      padding: 30px;
     }
     
   </style>
 </head>
 <body>
+
+  <ul id="horizontal-list">
+    <li class="items-horizontal"><a class="horizotal-button" href="#desc">Descrição</a></li>
+    <li class="items-horizontal"><a class="horizotal-button" href="#hab">Habilidades</a></li>
+    <li class="items-horizontal"><a class="horizotal-button" href="#blog">Recomendações</a></li>
+  </ul>
+
+  <br><br><br><br><br>
+
   <h1 class="inicio">Olá, eu sou o</h1>
-  <h2 class="inicio">Gabriel Elias Benedetti</h2>
+  <h2 class="inicio">Gabriel Benedetti</h2>
 
   <img id="img"src="FotoGabriel" alt="Gabriel Benedetti" width="300px" class="center">
-
-  <h3>Índice:</h3>
-  <ul>
-    <li><a href="#desc">Descrição</a></li>
-    <li><a href="#hab">Habilidades</a></li>
-    <li><a href="#blog">Recomendações</a></li>
-  </ul>
 
   <hr>
 
   <h3 id="desc" >Descrição</h3>
-  <p>Olá, eu sou o Gabriel. Sou <strong>brasileiro</strong>, nascido e criado em <strong>Curitiba no Paraná</strong>. Nasci no dia 14 de Março de 2001(por tanto, no ano que estou escrevendo isso tenho 20 anos).Tenho mais ou menos <em>1.80 de altura, cabelo e olhos castanhos e uso óculos.</em>se quiser visualizar melhhor como eu sou, confira a <a href="#img">foto</a> mais uma vez. Estou cursando Engenhria Mecatrônica na UTFPR e lá tive meu primeiro contato com a programação. Assim, querendo conhecer mais sobre o mundo da programção, encontrei o curso da Trybe de desenvolvimento web e senti que seria a oportunidade perfeita de aprendizado.</p>
+  <p>Sou <strong>brasileiro</strong>, nascido e criado em <strong>Curitiba no Paraná</strong>. Nasci no dia 14 de Março de 2001(por tanto, no ano que estou escrevendo isso tenho 20 anos).Tenho mais ou menos <em>1.80 de altura, cabelo e olhos castanhos e uso óculos.</em>se quiser visualizar melhhor como eu sou, confira a <a href="#img">foto</a> mais uma vez. Estou cursando Engenhria Mecatrônica na UTFPR e lá tive meu primeiro contato com a programação. Assim, querendo conhecer mais sobre o mundo da programção, encontrei o curso da Trybe de desenvolvimento web e senti que seria a oportunidade perfeita de aprendizado.</p>
+
+  <hr>
 
   <h3 id="hab" >Habilidades</h3>
   <p>Segue uma lista com algumas habilidades, sendo a destacada a que eu mais me orgulo:</p>
@@ -53,6 +72,8 @@
     <li><strong>Aprender rapidamente</strong></li>
       <p>- Costumo ter facilidade para aprender coisas novas rapidamente.</p>
   </ul>
+
+  <hr>
 
   <h3 id="blog">Recomendações</h3>
   <p>Pra você quer entrar no mundo dev eu super recomendo acompanhar o <a href="https://blog.betrybe.com/" target="_blank">Blog da Trybe.</a> Lá você encontrará muito conteúdo de qualidade.</p>
